@@ -523,7 +523,14 @@ p {
 	filter: grayscale(1);
 	transition: 0.3s ease filter;
 }
+#footer .social-item a {
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
 #footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer .social-item:hover a {
 	filter: grayscale(0);
 }
 #footer p {
